@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-toggler {
+    filter: invert(100%); 
+  }
+
+.card-title, .iconos, .suscribete > .mb-3, .precio_antes, .card-text, .mb-3, .suscribete input {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #707070;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 24px; 
+}
+.iconos{
+    font-size: 13px;
+}
+
+.precio_despues{
+    color: #28a745;
+}
+.suscribete > h2, .precio_despues{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.5;
+    text-align: center;
+}
+.suscribete button[type="submit"] {
+    
+    height: 40px;
+    width: 113px;
+    background-color:#DDDDDD;
+    border-color: transparent;
+    color: black; 
+}
+
+.navbar{
+    background-color: #28a745;
+}
+.card{
+    border-color: transparent;
+}
+.suscribete{
+    background-color: #28a745;
+    height: 290px;
+}
+.precio{
+    justify-content: end;
+    align-items: center;   
+}
